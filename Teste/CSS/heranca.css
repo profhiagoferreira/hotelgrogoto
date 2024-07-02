@@ -1,0 +1,28 @@
+/*Mudando a família de fonte de toda a página.Selecionando todas a tag
+p {
+  font-family: "Helvetica", sans-serif;
+}
+a {
+  font-family: "Helvetica", sans-serif;
+}
+figcaption {
+  font-family: "Helvetica", sans-serif;
+}
+/* A Cascata "CSS", possibilita que os filhos herdem características de estilo de elementos superiores.Estas que "podem ou não" passar aos descendentes seus valores*/
+body {
+  font-family: "Helvetica", sans-serif;
+}
+div {
+  border: 2px solid;
+  border-color: red;
+  width: 200px;
+  height: 200px;
+}
+img {
+  width: inherit;
+  height: inherit;
+}
+.vista {
+  width: 1000px;
+  height: 800px;
+}

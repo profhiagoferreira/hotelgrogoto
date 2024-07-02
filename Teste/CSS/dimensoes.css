@@ -1,0 +1,25 @@
+p {
+  background-color: red;
+  height: 130px;
+  width: 300px;
+  /*Todos os parágrafos do nosso HTML ocuparão 300pixels de largura 130pixels de altura*/
+  padding: 20px 50px 5px 10px;
+  /*Valores para padding;
+  padding: 10px; -> Aplica em todas as direções
+
+  padding : 10px 15px;
+  Para cima e abaixo(10px) esquerda e direita(15px).
+  
+  padding:10px 20px 15px; 
+  10px(acima) 20px(Esquerda e direita) 15px(abaixo)
+
+  padding: 10px 20px 15px 5px;
+  10px(acima),20px(direita),15px(abaixo),5px(esquerda) ->
+  Sentido horário.
+  Para recordar:
+  top-acima bottom-abaixo - left-esquerda right-direita
+  */
+  margin: 0 auto;
+  /*Definição de margem 0(cima e abaixo) a
+  uto(automática para esquerda e direita)*/
+}

@@ -1,0 +1,42 @@
+/*
+img {
+  width: 500px;
+}
+  Aplica a todas as imagens
+  
+figure img {
+  width: 500px;
+  /*aplicamos agora somente nas imagens que são filhas de figure.
+}
+*/
+.apartamentos {
+  width: 500px;
+}
+.academia {
+  width: 300px;
+}
+/*
+Seletores de ID , utiliza o "#", seletores de class".", 
+Recomendação não utilizar seletores de id para estilização já que 
+a ideia do atributo é de referência única.
+GRAU DE ESPECIFICIDADE DE UM SELETOR(PRIORIDADE DO SELETOR)
+Seletor de TAG- 1 ponto;
+Seletor de Classe - 10 pontos;
+Seletor de ID - 100 pontos.
+No final o navegador soma a pontuação e aplica as propriedades com o seletor de maior valor*/
+p {
+  color: blue;
+  /*pontuação 1*/
+}
+.paragrafo {
+  color: red;
+  /*Pontuação 10*/
+}
+#paragrafo {
+  color: pink;
+  /*Pontuação 100*/
+}
+#paragrafo {
+  color: rgb(5, 126, 19);
+  /*Pontuação 100, porém o último elemento*/
+}

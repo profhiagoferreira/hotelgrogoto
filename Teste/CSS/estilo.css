@@ -1,0 +1,66 @@
+/*Comentários em css, este texto não irá aparecer
+A estrutura do CSS é simples:
+
+seletor{
+    propriedade: valor;
+}
+*/
+body {
+  background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+  background-size: 100%;
+  /*Tamanho da imagem pode ter seguintes valores:
+  Auto:Original da imagem.
+  cover: cobre completamente o elemento
+  contain redimensiona para que caiba dentro do elemento
+  comprimento: define largura e altura em px(pixel)
+  percentuais: define a largura e altura em porcentagem */
+  border-color: blue; /*Cor*/
+  border-style: solid; /*Estilo*/
+  border-width: 20px; /*Tamanho*/
+  /*PODE SER DECLARADA DE MANEIRA RESUMIDA:
+  border:20px solid blue*/
+}
+p {
+  /*seletor "p"*/
+  color: red;
+  /*Propriedade color, valor vermelho;*/
+  background-color: blue;
+  /*Cor de fundo, valor Azul;*/
+  font-family: monospace;
+  /*Todas as letras possuem o mesmo tamanho*/
+  text-align: justify;
+  line-height: 20px; /* Altura de cada linha*/
+  letter-spacing: 4px; /*Tamanho do espaço entre cada letra*/
+  word-spacing: 10px; /*Tamanho do espaço entre cada palavra*/
+  text-indent: 30px; /*Tamanho da margem da primeira linha do texto*/
+  font-size: 18px; /* tamanho da fonte*/
+}
+h1 {
+  font-family: serif;
+  /* Fontes serifadas: Tipo Times New Roman */
+  font-style: italic;
+  /*Fonte estilo inclinada*/
+  text-align: center;
+  background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+  /*Adicionando fundo ao seletor h1*/
+}
+h2 {
+  font-family: sans-serif;
+  /*Fontes não serifadas: Arial*/
+  font-style: oblique;
+  /*Texto inclina diferença pouco com a itálica*/
+  text-align: right;
+  border-top: 2px solid blue; /*borda azul em cima*/
+  border-right: 2px dashed rgb(47, 5, 73); /*borda vermelha à direita*/
+  border-left: 5px double yellow; /*Borda amarela à esquerda*/
+  border-bottom: 5px groove brown; /*Borda marrom embaixo*/
+}
+h3 {
+  font-family: monospace;
+  color: rgb(67, 0, 0);
+}
+h4 {
+  font-family: "Helvetica", "Lucida Grande", sans-serif;
+  /* O navegador verifica a disponibilidade da fonte Helvetica,
+    caso não esteja disponível, o navegador verificara a segunda fonte declarada. No exemplo Lucida Grande, se não encontrar, ele pegará qualquer fonte que pertença a "sans serif".*/
+}

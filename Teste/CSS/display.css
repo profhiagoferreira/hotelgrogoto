@@ -1,0 +1,25 @@
+p {
+  background-color: blue;
+  color: white;
+  width: 30%;
+  display: none;
+}
+a {
+  background-color: red;
+  width: 40%;
+  display: inline-block;
+}
+/* 
+Display : block
+Ocupa toda a largura.
+Display:inline 
+Elemento fique do lado(lado a lado)
+Display:inline-block
+Permite que fique do lado(Caso haja espaço)
+Display:flex
+Considera por padrão todos em linhas, permite definir alinhamento vertical quanto horizontal
+Display:grid
+Composto por linhas e colunas, abre a possibilidade de definir tamanho de cada espaço e espaçamento entre eles.
+Display:none
+Constroi o elemento e não renderiza.
+*/
